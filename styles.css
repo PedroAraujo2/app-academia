@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100dvh;
     margin: 0;
 }
 
@@ -50,7 +50,7 @@ main {
 }
 
 .content-block {
-    background-color: #eee;
+    background-color: #ffffff;
     border-radius: 10px;
     overflow: hidden;
 }
@@ -59,12 +59,20 @@ main {
     display: flex;
     align-items: center;
     padding: 20px;
-    height: 100px;
+    height: 170px;
+}
+
+.data {
+    background-color: #bbb;
+    border-radius: 10px;
+    margin: auto;
+    width: 85%;
+    height: 300px;
 }
 
 .content-img {
-    width: 80px;
-    height: 80px;
+    width: 150px;
+    height: 150px;
     background-color: #bbb;
     border-radius: 10px;
     margin-right: 20px;
